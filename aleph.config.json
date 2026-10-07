@@ -1,0 +1,21 @@
+{
+  "step": 3,
+  "repoUrl": "https://github.com/onedotfour88-lgtm/2-stage.git",
+  "publicAppUrl": "https://choi-bujang-secret-vault.vercel.app",
+  "sampleMarker": "2-stage",
+  "judgeIssuer": "aleph",
+  "identityProvider": {
+    "issuer": "https://igumgbitelfytidliydi.supabase.co/auth/v1",
+    "jwksUrl": "https://igumgbitelfytidliydi.supabase.co/auth/v1/.well-known/jwks.json",
+    "audience": "authenticated"
+  },
+  "allowedRoutes": [
+    "/",
+    "/data.json",
+    "/aleph.json",
+    "/api/memos",
+    "/api/memos/(.*)"
+  ],
+  "originalApiUrl": null,
+  "restoreRoute": null
+}
